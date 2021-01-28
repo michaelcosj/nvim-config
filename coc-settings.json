@@ -1,0 +1,14 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "dart", "javascript", "html", "yaml", "json", "python", "golang", "cpp"],
+  "coc.preferences.formatOnType": true,
+
+  //python config
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "~/.config/nvim/utils/snippets"
+  ],
+  "clangd.path": "/home/michael/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd"
+}
